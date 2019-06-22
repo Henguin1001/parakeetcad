@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+var path = require('path');
+var fs = require('fs')
+var argv = require('minimist')(process.argv.slice(2));
+var kicad_library = require('../src/kicad_library.js');
+
+var filenames = argv._;
+var destination = filenames.splice(-1)[0];
+
+filenames.forEach(function(filename){
+  var fileContents;
+  console.log('\x1b[36m%s\x1b[0m',`Reading from file: ${filename}`);
+  try {
+    fileContents = fs.readFileSync(filename,'UTF8');
+    var library = new kicad_library(fileContents);
+    console.log("\x1b[32m",`Found Module: ${library.module_name}`);
+
+    var output_path = destination+path.basename(filename);
+    output_path = output_path.substr(0, output_path.lastIndexOf(".")) + ".xml";
+    console.log('\x1b[36m%s\x1b[0m',`Writing to: ${output_path}`);
+    library.exportToFile(output_path);
+
+  } catch (err) {
+    if (err.code === 'ENOENT') {
+      console.log("\x1b[31m",'File not found!');
+    } else {
+      throw err;
+    }
+  }
+
+});
+// var library = new Kicad_Library("footprints/kicad/QFN-20-1EP_3x3mm.kicad_mod");
+// library.exportToFile("footprints/xml/QFN-20-1EP_3x3mm.xml");
+// console.log(library.exportToString());

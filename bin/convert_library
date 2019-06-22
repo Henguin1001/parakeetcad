@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+./bin/convert_footprint footprints/kicad/*.kicad_mod footprints/xml/

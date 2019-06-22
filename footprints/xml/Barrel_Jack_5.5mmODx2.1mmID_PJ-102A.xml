@@ -1,0 +1,36 @@
+<library>
+    <module id="Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" layer="F.Cu" tedit="5">
+        <fp_text type="reference" contents="REF**" at-x="0" at-y="-12.1" layer="F.SilkS">
+            <effects>
+                <font size-x="1" size-y="1" thickness="0.15" />
+            </effects>
+        </fp_text>
+        <fp_text type="value" contents="Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" at-x="0" at-y="5.8" layer="F.Fab">
+            <effects>
+                <font size-x="1" size-y="1" thickness="0.15" />
+            </effects>
+        </fp_text>
+        <fp_line start-x="-5.9" start-y="4.25" end-x="4.8" end-y="4.25" layer="F.CrtYd" width="0.05" />
+        <fp_line start-x="4.8" start-y="-10.95" end-x="4.8" end-y="4.25" layer="F.CrtYd" width="0.05" />
+        <fp_line start-x="-5.9" start-y="-10.95" end-x="-5.9" end-y="4.25" layer="F.CrtYd" width="0.05" />
+        <fp_line start-x="-5.9" start-y="-10.95" end-x="4.8" end-y="-10.95" layer="F.CrtYd" width="0.05" />
+        <fp_line start-x="4.6" start-y="-3.5" end-x="4.6" end-y="-4.5" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="-4.6" start-y="-3.5" end-x="-4.6" end-y="-4.5" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="4.6" start-y="-10.8" end-x="4.6" end-y="-10.3" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="4.6" start-y="-10.8" end-x="4.1" end-y="-10.8" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="-4.6" start-y="-10.8" end-x="-4.1" end-y="-10.8" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="-4.6" start-y="-10.8" end-x="-4.6" end-y="-10.3" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="-1.2" start-y="-1.8" end-x="1.2" end-y="-1.8" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="-4.6" start-y="3.8" end-x="-4.6" end-y="3.3" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="-4.6" start-y="3.8" end-x="-4.1" end-y="3.8" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="4.6" start-y="3.8" end-x="4.6" end-y="3.3" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="4.6" start-y="3.8" end-x="4.1" end-y="3.8" layer="F.SilkS" width="0.1" />
+        <fp_line start-x="-4.5" start-y="-10.7" end-x="4.5" end-y="-10.7" layer="F.Fab" width="0.1" />
+        <fp_line start-x="4.5" start-y="3.7" end-x="4.5" end-y="-10.7" layer="F.Fab" width="0.1" />
+        <fp_line start-x="-4.5" start-y="3.7" end-x="-4.5" end-y="-10.7" layer="F.Fab" width="0.1" />
+        <fp_line start-x="-4.5" start-y="3.7" end-x="4.5" end-y="3.7" layer="F.Fab" width="0.1" />
+        <pad number="3" form="thru_hole" shape="rect" at-x="-4.7" at-y="0" size-x="2" size-y="2.6" drill="oval,1,1.6" layers="*.Cu,*.Mask" />
+        <pad number="1" form="thru_hole" shape="rect" at-x="0" at-y="3" size-x="2.6" size-y="2" drill="oval,1.6,1" layers="*.Cu,*.Mask" />
+        <pad number="2" form="thru_hole" shape="rect" at-x="0" at-y="-3" size-x="2.6" size-y="2" drill="oval,1.6,1" layers="*.Cu,*.Mask" />
+    </module>
+</library>
