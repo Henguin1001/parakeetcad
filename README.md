@@ -13,6 +13,7 @@ I have added scripts that convert kicad libraries into xml, but the formatting  
 TODO:
 * split up the index.js into proper modules
 * connect the xml components to the gerber generate functionality
+* use grunt for task running (kicad->xml)
 * add support for more layers
 * add hand routing
 * add auto routing

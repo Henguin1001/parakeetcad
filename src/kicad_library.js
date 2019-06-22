@@ -1,3 +1,6 @@
+/*
+Author: Henry Troutman (henguin1001)
+*/
 var cheerio = require('cheerio');
 var fs = require('fs');
 var parser = require('./littlelisp.js').littleLisp.parse;

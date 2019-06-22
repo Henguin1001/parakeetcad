@@ -1,3 +1,8 @@
+/*
+  Author: Mary Rose Cook (maryrosecook)
+  Github: https://github.com/maryrosecook/littlelisp
+*/
+
 ;(function(exports) {
   var library = {
     first: function(x) {

@@ -1,3 +1,6 @@
+/*
+Author: Henry Troutman
+*/
 const GC = {
   comment:"04",
   mode:{

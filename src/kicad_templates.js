@@ -1,3 +1,6 @@
+/*
+Author: Henry Troutman (henguin1001)
+*/
 var cheerio = require('cheerio');
 
 // extendable class to handle conversion
